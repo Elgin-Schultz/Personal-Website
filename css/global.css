@@ -1,0 +1,33 @@
+@font-face {
+  font-family: futura;
+  src: url(./assets/futura);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: futura;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+body {
+  padding: 2em;
+  background-image: url(../assets/Elgin-Schultz.png);
+  background-size: cover;
+}
+footer {
+  transform: rotate(-90deg);
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  right: 0%;
+}
